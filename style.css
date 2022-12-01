@@ -9,6 +9,9 @@
 		background-attachment:fixed;
 		
 }
+	body {
+		overflow: hidden;
+}
 	title {
 		display: none;
 }
@@ -37,4 +40,7 @@
 	td:hover {
 		-ms-transform: scale(1.15);
 		transform: scale(1.15);
+}
+	.update {
+		font-family: 'Brush Script MT', cursive;
 }
