@@ -23,7 +23,11 @@
 	
 	td:hover { -ms-transform: scale(1.15);
 		transform: scale(1.15); }
-	
+
+	.mangatitle { font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+		font-size: 14px;
+		text-align: center; }
+
 	.update { font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
 		font-size: 20px;
 		text-align: center; }
