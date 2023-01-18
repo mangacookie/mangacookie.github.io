@@ -1,3 +1,38 @@
+/* title overlay */
+
+	.mangatitle { position: relative;
+		width: auto; }
+
+	.image { display: block;
+		width: 100%;
+		height: auto; }
+
+	.titleoverlay { position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		height: 20%;
+		width: 100%;
+		opacity: 0;
+		transition: .5s ease;
+		background-color: #f1f1f1;
+		background: rgb(0, 0, 0);
+		background: rgba(0, 0, 0, 0.5); }
+
+	.mangatitle:hover .titleoverlay { opacity: 1; }
+
+	.title { color: white;
+		font-size: 20px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		-webkit-transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+		text-align: center; }
+
+/* title overlay end */
+	
 	section{ display: flex; }
 	
 	html { width: 100%;
@@ -9,6 +44,8 @@
 	body { overflow: auto; }
 	
 	title { display: none; }
+
+/* table for links */
 
 	table.center { margin-left: auto;
 		margin-right: auto; }
@@ -22,8 +59,8 @@
 	
 	td { transition: transform .2s; }
 	
-	td:hover { -ms-transform: scale(1.15);
-		transform: scale(1.15); }
+	td:hover { -ms-transform: scale(1.08);
+		transform: scale(1.08); }
 
 	.update { font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
 		font-size: 20px;
@@ -37,6 +74,9 @@
 		margin: auto;
 		max-width: 100%;
 		height: 75px; }
+
+/* table for links end */
+/* web layout */
 
 	.grid-container { display: grid;
 		grid-template-columns: 350px auto auto;
@@ -61,3 +101,4 @@
 	.item4 { grid-area: updates; }
 
 	.item5 { grid-area: footer; }
+/* web layout end */
